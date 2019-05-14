@@ -141,15 +141,10 @@ nodelist = []
 node = gs.Node()
 node.setPos(x[ind_start], y[ind_start])
 
+dt = t[ind_end] - t[ind_start]
+node.setDeriv(1, [vx[ind_start]*dt, vy[ind_start]*dt])
+node.setDeriv(2, [ax[ind_start]*dt*dt, ay[ind_start]*dt*dt])
 
-
-dx = x[ind_end] - x[ind_start]
-dy = y[ind_end] - y[ind_start]
-ds = np.sqrt(dx**2 + dy**2)
-fac = 10
-node.setDeriv(1, [vx[ind_start]/fac, vy[ind_start]/fac])
-#node.setDeriv(2, [ax[ind_start], ay[ind_start]/fac])
-print(node.derivs)
 nodelist.append(node)
 nodeindices = []
 
