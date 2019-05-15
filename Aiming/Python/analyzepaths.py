@@ -100,9 +100,35 @@ def getClosestPoint(xlist, ylist, xtarget, ytarget):
 			ind_min = i
 	return ind_min
 
+
+# Generates smooth exponential ramping from 0 to 1 to 0 for deviations from spline. 
+# Appropriate values for ramp:  rampin = 0.0 and rampout = 1.0 (instant ramping with no lag and then ramp to 0 at end)
+# Appropriate values for width: 0.01 - 0.03
+def getRampCoeff(t, rampin, rampout, rampinwidth, rampoutwidth):
+	if (rampin < 0.0 or rampin > 1.0 or rampout < 0.0 or rampout > 1.0):
+		raise ValueError('Rampin/out values must be between 0.0 and 1.0')
+
+	x1 = t - rampin
+	x2 = rampout - t
+
+	# Values before and after rampin/rampout are zero. Otherwise do exponential damping
+	if (x1 > 0.0):
+		c1 = np.exp(-1.0/(x1/rampinwidth))
+	else:
+		c1 = 0.0
+
+	if (x2 > 0.0):
+		c2 = np.exp(-1.0/(x2/rampinwidth))
+	else:
+		c2 = 0.0
+
+	return(c1*c2)
+
 # Plots a spline given the nodes of the spline and the coefficients of the parametric representation of the curves (xc, yc) and # of points to plot with
 # xc, yc represents x(t) = xc[0] + xc[1]*t + xc[2]*t^2 + ... for t c[0.0, 1.0]
-def plotSpline(nodelist, xc, yc, npoints, show = False):
+# Oscillations adds sinusoidal oscillations to the path normal dicated by frequency list (radians) and amplitude list (pixels)
+# Ramp adds exponential damping to oscillations near beginning and end of path
+def plotSpline(nodelist, xc, yc, npoints, show = False, oscillations = False, freqlist = [], amplist = [], ramp = False, rampin = 0, rampout = 0, rampinwidth = 0, rampoutwidth = 0):
 	t = np.linspace(0,1,npoints)
 	x = []
 	y = []
@@ -116,6 +142,41 @@ def plotSpline(nodelist, xc, yc, npoints, show = False):
 		for j in range(0,len(xc)):
 			xsum += xc[j]*curt**j
 			ysum += yc[j]*curt**j
+
+		# Generate sinusoidal disturbances to path
+		if (oscillations):
+
+			# Get path tangent and normal
+			tanx = 0
+			tany = 0
+
+			# Take derivative of spline to find tangent
+			for i in range (1,len(xc)):
+				tanx += j*xc[j]*curt**(j)
+				tanx += j*yc[j]*curt**(j)
+			# Normalize and find normals
+			tanx = tanx/np.sqrt(tanx**2 + tany**2)
+			tany = tany/np.sqrt(tanx**2 + tany**2)
+
+			normx = -tany
+			normy = tanx
+
+			# Generate disturbance as sum of sines
+			wave = 0
+			for k in range(0,len(freqlist)):
+				wave += amplist[k]*math.sin(curt*freqlist[k])
+
+			# Add exponential ramping to disturbances
+			if (ramp):
+				rampcoeff = getRampCoeff(curt, rampin, rampout, rampinwidth, rampoutwidth)
+				wave *= rampcoeff
+
+			# Get deviations to x,y position
+			devx = wave*normx
+			devy = wave*normy
+
+			xsum += devx
+			ysum += devy
 
 		x.append(xsum)
 		y.append(ysum)
@@ -161,7 +222,7 @@ def getDeviations(xpath, ypath, xspline, yspline, startind, plot = False):
 
 # Plot mouse path from test run # (index) as well as spline approximation of path from middle to end given previous path information (derivatives) 
 # Spline is genereated from point closest to blue target until the last point in the path with degree set by the continuity at start node (1st deriv. continuity gives quadratic spline)
-def plotPaths(data, index, continuity):
+def plotPaths(data, index, continuity, oscillations = False, freqlist = [], amplist = [], ramp = False, rampin = 0, rampout = 0, rampinwidth = 0, rampoutwidth = 0):
 	[[targetx, targety], [x,y,t]] = extractData(data,index)
 
 	[vx, vy, ax, ay] = getMetrics(x,y,t,smoothwindow, False)
@@ -196,7 +257,8 @@ def plotPaths(data, index, continuity):
 	# Get spline polynomial coefficients for x,y
 	[spline_xcoeffs, spline_ycoeffs] = gs.makeSpline([startnode, endnode])
 
-	[xspline, yspline] = plotSpline([startnode, endnode], spline_xcoeffs, spline_ycoeffs, 300)
+	[xspline, yspline] = plotSpline([startnode, endnode], spline_xcoeffs, spline_ycoeffs, 300, oscillations = oscillations, freqlist = freqlist, amplist = amplist,
+		ramp = ramp, rampin = rampin, rampout = rampout, rampinwidth = rampinwidth, rampoutwidth = rampoutwidth)
 
 	plt.plot(x, y, 'k.')
 	getDeviations(x, y, xspline, yspline, ind_start, True)
@@ -213,4 +275,13 @@ with open(datapath, 'rb') as file:
 header = data[0]
 
 for i in range(1, len(data)):
-	plotPaths(data, i, 2)
+	# Generate parameters random sinusoidal variations
+	freq = []
+	amp = []
+
+	for j in range(0,3):
+		freq.append(random.random()*3.0 + 1.0)  # Random frequencies between 1 and 4
+		amp.append(random.random()*10.0 + 5.0) # Random amplitudes between 5 and 15
+
+	plotPaths(data, i, 2, oscillations = True, freqlist = freq, amplist = amp, ramp = True, rampin = 0.1, rampout = 1.0, rampinwidth = 0.4, rampoutwidth = 0.2)
+
