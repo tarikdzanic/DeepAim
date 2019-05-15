@@ -135,6 +135,29 @@ def plotSpline(nodelist, xc, yc, npoints, show = False):
 
 	if show:
 		plt.show()
+	return([x,y])
+
+def getDeviations(xpath, ypath, xspline, yspline, startind, plot = False):
+	newx = xpath[startind:]
+	newy = ypath[startind:]
+
+	alldevx = []
+	alldevy = []
+
+	for i in range(0,len(newx)):
+		x = newx[i]
+		y = newy[i]
+		cind = getClosestPoint(xspline, yspline, x, y)
+
+		devx = [xspline[cind], x]
+		devy = [yspline[cind], y]
+		alldevx.append(devx)
+		alldevy.append(devy)
+		if plot:
+			plt.plot(devx,devy, 'b-')
+
+	return([alldevx, alldevy])
+	
 
 # Plot mouse path from test run # (index) as well as spline approximation of path from middle to end given previous path information (derivatives) 
 # Spline is genereated from point closest to blue target until the last point in the path with degree set by the continuity at start node (1st deriv. continuity gives quadratic spline)
@@ -171,15 +194,14 @@ def plotPaths(data, index, continuity):
 	endnode.setPos(x[ind_end], y[ind_end])
 
 	# Get spline polynomial coefficients for x,y
-	[xspline, yspline] = gs.makeSpline([startnode, endnode])
+	[spline_xcoeffs, spline_ycoeffs] = gs.makeSpline([startnode, endnode])
 
-	plotSpline([startnode, endnode], xspline, yspline, 300)
+	[xspline, yspline] = plotSpline([startnode, endnode], spline_xcoeffs, spline_ycoeffs, 300)
+
 	plt.plot(x, y, 'k.')
+	getDeviations(x, y, xspline, yspline, ind_start, True)
 	plt.axis('scaled')
 	plt.show()
-
-
-
 
 
 # Open pickled mouse paths 
