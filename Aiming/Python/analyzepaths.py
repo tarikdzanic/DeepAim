@@ -200,6 +200,7 @@ def plotPaths(data, index, continuity):
 
 	plt.plot(x, y, 'k.')
 	getDeviations(x, y, xspline, yspline, ind_start, True)
+	plt.legend(['Spline approximation', 'Start node', 'End node', 'Mouse path', 'Deviation'])
 	plt.axis('scaled')
 	plt.show()
 
