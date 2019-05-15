@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import scipy.linalg
 
 
-# Node object for B-spline. Allows specifying x,y position of knots and derivatives at the nodes
+# Node object for B-spline. Allows specifying x,y position of knots and derivatives at the knots
 class Node(object):
 	def __init__(self):
 		self.x = 0
@@ -93,7 +93,6 @@ def getAxb(node, polyorder, tvalue, bool_x):
 			row = deriveRow(firstrow, deriv_degree)
 			A.append(row)
 
-			# The system is underconstrained for dy/dx = dy/dt * dt/dx so just set dx/dt = 1 which gives dy/dt = dy/dx
 			if (bool_x):
 				b.append(deriv_value[0])
 			else:
