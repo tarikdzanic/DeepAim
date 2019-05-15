@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "f570d6bd0febf4041bd2718c7afb1ac7",
+        "name": "20190511133449_2.jpg",
+        "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133449_2.jpg",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "V5GzP3702",
+            "type": "RECTANGLE",
+            "tags": [
+                "mirage_ct"
+            ],
+            "boundingBox": {
+                "height": 33.088235294117645,
+                "width": 26.464507236388698,
+                "left": 0,
+                "top": 800.859375
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 800.859375
+                },
+                {
+                    "x": 26.464507236388698,
+                    "y": 800.859375
+                },
+                {
+                    "x": 26.464507236388698,
+                    "y": 833.9476102941176
+                },
+                {
+                    "x": 0,
+                    "y": 833.9476102941176
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

@@ -1,0 +1,2937 @@
+{
+    "name": "MirageCT",
+    "securityToken": "MirageCT Token",
+    "sourceConnection": {
+        "name": "MirageCT",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDc4YjdkOTQyZWJmZTNhMWQwN2YxOTIwZWM2YzMyMTk4ZTI1ZjhlNDE0YjMzMGVkMmU0ZWNkZWUyMzNiMDUzNzRhMmZjMWEyMWU1ZjkwMGNiNGJjNGFjNDU3N2NlMGFkMmU4MmYxNjA0ZGY2NGI3MjhjYTIzYjQwODBlYjE2YWMzYWNmY2E4YTlhMzVjOGZiNDIxNGQ1ZmMzZDVjMGI5OCIsIml2IjoiYzY4YzA0YTU0Mzg2NTVlZWJhMzIwYmY5MzE1Yzk3OWM1MzRlYTY2Y2FlM2JiYjMwIn0="
+        },
+        "id": "HFl4krAhh"
+    },
+    "targetConnection": {
+        "name": "Output",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTNmYjI1MjAyM2Y5OWZkZGNhM2E1MDNlOWQ0NDcyMDU4ZTFhYWRlY2FmZGQ1ZmQzMDAzN2Q1Nzg2ODA4ZGZiYjg1Njg0MThkMWE5ZDc4MmU2MzMxOWQ5ZjRjYTcxYTAwMTgwZjcyYjc1YjllMTI1MmM5M2QzZjRkMTMzYzI2NDM2ZmM1YzU2YjgxOWNkMGEzN2UxNDA2MzU0YWNjYjEyZWQ1YTdkODk1YTU5MjlmNmVkYWVlMTIzODExZTQxNDk4IiwiaXYiOiI2NzNhNzZjZTQ2MzI4MmE0MzgxYzhiNTIzMTk3MWExODQ0OWEyOGI1Y2MzZTg2ZmUifQ=="
+        },
+        "id": "iVL0EDi0K"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 2
+    },
+    "tags": [
+        {
+            "name": "mirage_ct",
+            "color": "#5db300"
+        }
+    ],
+    "id": "zA98IYP18",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "tensorFlowRecords",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTg5OGRmYTQxODkwNTlhNzFhZDMxY2I3M2MzYTczZTc3OTFmYWQ2N2I1ZGQyODRmYmY2NjgwM2U1MGZjMTU0YSIsIml2IjoiNmU2ZGNmNjY2NmY5MzRmMzk1MTU5ZTlhNTcxNjRiMjFhNjIxNmU3M2MwMzg2ZmExIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "71d2584bc43c5b6812c77f91859fabf5",
+    "assets": {
+        "5dd9a79136b4f9edd4cc2627f9c2028e": {
+            "format": "jpg",
+            "id": "5dd9a79136b4f9edd4cc2627f9c2028e",
+            "name": "20190511131808_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131808_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "95cb55e9228375e4939dd07602a7b54f": {
+            "format": "jpg",
+            "id": "95cb55e9228375e4939dd07602a7b54f",
+            "name": "20190511131809_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131809_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52fd2c3cdae9a7213fdd336f7c32eb67": {
+            "format": "jpg",
+            "id": "52fd2c3cdae9a7213fdd336f7c32eb67",
+            "name": "20190511131813_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131813_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7524909a80588ea3ca4e3bb3a817d22b": {
+            "format": "jpg",
+            "id": "7524909a80588ea3ca4e3bb3a817d22b",
+            "name": "20190511131814_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131814_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "063ec5909dd3e4e9117bfe19a35a6065": {
+            "format": "jpg",
+            "id": "063ec5909dd3e4e9117bfe19a35a6065",
+            "name": "20190511131816_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131816_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d24a9d217453627cdb415607ed6ed22": {
+            "format": "jpg",
+            "id": "5d24a9d217453627cdb415607ed6ed22",
+            "name": "20190511131823_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131823_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7664b775a75f9d287eb438035015b6b6": {
+            "format": "jpg",
+            "id": "7664b775a75f9d287eb438035015b6b6",
+            "name": "20190511131851_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131851_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "738f0a00fa8f54ff4eb6055ad5cf174e": {
+            "format": "jpg",
+            "id": "738f0a00fa8f54ff4eb6055ad5cf174e",
+            "name": "20190511131853_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131853_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06595f30091d6c04b0f962dba06bac5b": {
+            "format": "jpg",
+            "id": "06595f30091d6c04b0f962dba06bac5b",
+            "name": "20190511131857_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131857_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "64b1689d851f65b0af6e2ec67e305cd0": {
+            "format": "jpg",
+            "id": "64b1689d851f65b0af6e2ec67e305cd0",
+            "name": "20190511131900_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131900_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "82b630761f57dd0a427249aed5e080f7": {
+            "format": "jpg",
+            "id": "82b630761f57dd0a427249aed5e080f7",
+            "name": "20190511131901_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131901_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf0d6cbaebe845dc5c1730596dacc807": {
+            "format": "jpg",
+            "id": "cf0d6cbaebe845dc5c1730596dacc807",
+            "name": "20190511131902_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131902_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f5442f0926bbcc251d0307dcb7c233e": {
+            "format": "jpg",
+            "id": "4f5442f0926bbcc251d0307dcb7c233e",
+            "name": "20190511131905_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131905_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2f8c2a0582212116b28e409b6b3fda65": {
+            "format": "jpg",
+            "id": "2f8c2a0582212116b28e409b6b3fda65",
+            "name": "20190511131907_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131907_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a5f562a5dc4a02f18ee41fc4d02e1ce": {
+            "format": "jpg",
+            "id": "9a5f562a5dc4a02f18ee41fc4d02e1ce",
+            "name": "20190511131908_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131908_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3536558adac7fb649e3ecbc81e319879": {
+            "format": "jpg",
+            "id": "3536558adac7fb649e3ecbc81e319879",
+            "name": "20190511131909_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131909_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "afb5de35d61276a95275842e9f0df748": {
+            "format": "jpg",
+            "id": "afb5de35d61276a95275842e9f0df748",
+            "name": "20190511131911_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131911_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e69ddd055ab1bfa1fcf44e714de17b1c": {
+            "format": "jpg",
+            "id": "e69ddd055ab1bfa1fcf44e714de17b1c",
+            "name": "20190511131912_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131912_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c9693c084b9106ae40d06b23f12049fe": {
+            "format": "jpg",
+            "id": "c9693c084b9106ae40d06b23f12049fe",
+            "name": "20190511131914_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131914_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4349e065025ee0e4e400824d7a5f1443": {
+            "format": "jpg",
+            "id": "4349e065025ee0e4e400824d7a5f1443",
+            "name": "20190511131916_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131916_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "170c35db2edd6f2c4376f4961d02ae4b": {
+            "format": "jpg",
+            "id": "170c35db2edd6f2c4376f4961d02ae4b",
+            "name": "20190511131917_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131917_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2fefc8cbade31d7fd4334e1ef1c1b8a4": {
+            "format": "jpg",
+            "id": "2fefc8cbade31d7fd4334e1ef1c1b8a4",
+            "name": "20190511131919_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131919_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3255f08aa6fadcd63b0b4687b09c66f": {
+            "format": "jpg",
+            "id": "a3255f08aa6fadcd63b0b4687b09c66f",
+            "name": "20190511131927_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131927_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46bdf4f36aaccd8f52daea8c39837c94": {
+            "format": "jpg",
+            "id": "46bdf4f36aaccd8f52daea8c39837c94",
+            "name": "20190511131929_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131929_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af1e3da66bc3d12ce1144a2fc59a22c4": {
+            "format": "jpg",
+            "id": "af1e3da66bc3d12ce1144a2fc59a22c4",
+            "name": "20190511131930_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131930_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52dc6e13960d4fb19a290bd6503f6752": {
+            "format": "jpg",
+            "id": "52dc6e13960d4fb19a290bd6503f6752",
+            "name": "20190511131930_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131930_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c0c71e14ac833b75bc5ae6a43a3e17c": {
+            "format": "jpg",
+            "id": "1c0c71e14ac833b75bc5ae6a43a3e17c",
+            "name": "20190511131931_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131931_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ec11b4fa1c56919f4b8c403c4a86b2b": {
+            "format": "jpg",
+            "id": "9ec11b4fa1c56919f4b8c403c4a86b2b",
+            "name": "20190511131932_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131932_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fbc33aa4498df990c61b7d61617e222e": {
+            "format": "jpg",
+            "id": "fbc33aa4498df990c61b7d61617e222e",
+            "name": "20190511131934_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131934_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e0cf666df6325b8ce38d741606efa698": {
+            "format": "jpg",
+            "id": "e0cf666df6325b8ce38d741606efa698",
+            "name": "20190511131934_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131934_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc47043fac37773743529163f0020c02": {
+            "format": "jpg",
+            "id": "cc47043fac37773743529163f0020c02",
+            "name": "20190511131935_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131935_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5085d060a92a4a863d55dbbc85d3cc0": {
+            "format": "jpg",
+            "id": "d5085d060a92a4a863d55dbbc85d3cc0",
+            "name": "20190511131935_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131935_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea9ecf6428341d2936103c87a351e019": {
+            "format": "jpg",
+            "id": "ea9ecf6428341d2936103c87a351e019",
+            "name": "20190511131938_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131938_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e0b2838a045ac056ab9ad8a68f149a7": {
+            "format": "jpg",
+            "id": "9e0b2838a045ac056ab9ad8a68f149a7",
+            "name": "20190511131938_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131938_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80d2041e78a9c028ee7e59fbbca91dad": {
+            "format": "jpg",
+            "id": "80d2041e78a9c028ee7e59fbbca91dad",
+            "name": "20190511131939_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131939_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6215923818903a4e93567918f4bb05c5": {
+            "format": "jpg",
+            "id": "6215923818903a4e93567918f4bb05c5",
+            "name": "20190511131940_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131940_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dcc7a8ba3dc8a99cac4be1691ca44122": {
+            "format": "jpg",
+            "id": "dcc7a8ba3dc8a99cac4be1691ca44122",
+            "name": "20190511131941_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131941_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6cda74a4fa3f1e5e927a8c94e3d9251": {
+            "format": "jpg",
+            "id": "c6cda74a4fa3f1e5e927a8c94e3d9251",
+            "name": "20190511131942_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511131942_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "924597c01433eb26354db2970d60d07c": {
+            "format": "jpg",
+            "id": "924597c01433eb26354db2970d60d07c",
+            "name": "20190511132008_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132008_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b866a871b1e7c6cd9bdf7bc8a82bd67b": {
+            "format": "jpg",
+            "id": "b866a871b1e7c6cd9bdf7bc8a82bd67b",
+            "name": "20190511132013_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132013_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cab663c22212d9a416f700b40f9b9133": {
+            "format": "jpg",
+            "id": "cab663c22212d9a416f700b40f9b9133",
+            "name": "20190511132015_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132015_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb32d91441b6c12166e81acc8c98df22": {
+            "format": "jpg",
+            "id": "fb32d91441b6c12166e81acc8c98df22",
+            "name": "20190511132015_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132015_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d1df3f4e4cbb44b3fe773fa06bc53e9": {
+            "format": "jpg",
+            "id": "3d1df3f4e4cbb44b3fe773fa06bc53e9",
+            "name": "20190511132016_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132016_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af7b472eae6acd030fd5797e88bfcba7": {
+            "format": "jpg",
+            "id": "af7b472eae6acd030fd5797e88bfcba7",
+            "name": "20190511132016_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132016_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc758d585b627477886bdbb9944364d5": {
+            "format": "jpg",
+            "id": "bc758d585b627477886bdbb9944364d5",
+            "name": "20190511132017_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132017_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "661e0afca93428af797010d0c5fe1b84": {
+            "format": "jpg",
+            "id": "661e0afca93428af797010d0c5fe1b84",
+            "name": "20190511132018_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132018_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4be138ce59370fe1ab7f47a42acfc2ea": {
+            "format": "jpg",
+            "id": "4be138ce59370fe1ab7f47a42acfc2ea",
+            "name": "20190511132019_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132019_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b99032d82e76071cdfdc259c9597427": {
+            "format": "jpg",
+            "id": "2b99032d82e76071cdfdc259c9597427",
+            "name": "20190511132019_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132019_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d2dbe8a9e33c433cb9cc4596a5162d8": {
+            "format": "jpg",
+            "id": "2d2dbe8a9e33c433cb9cc4596a5162d8",
+            "name": "20190511132020_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132020_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c12f171e098ef7da5cfcff3303b34b1": {
+            "format": "jpg",
+            "id": "7c12f171e098ef7da5cfcff3303b34b1",
+            "name": "20190511132021_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132021_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b4c4d013effd0eb7a3ad67eb565b91d": {
+            "format": "jpg",
+            "id": "0b4c4d013effd0eb7a3ad67eb565b91d",
+            "name": "20190511132025_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132025_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3d30975995b7c54ff3c4af21adc8ece": {
+            "format": "jpg",
+            "id": "c3d30975995b7c54ff3c4af21adc8ece",
+            "name": "20190511132028_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132028_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b97be0bb0a0bb577ee57f7e199222a5b": {
+            "format": "jpg",
+            "id": "b97be0bb0a0bb577ee57f7e199222a5b",
+            "name": "20190511132029_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132029_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27829f64c91ad4b2afec4eb0b5814cda": {
+            "format": "jpg",
+            "id": "27829f64c91ad4b2afec4eb0b5814cda",
+            "name": "20190511132031_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132031_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "566f82760b9789c1aa525381c1a6c00c": {
+            "format": "jpg",
+            "id": "566f82760b9789c1aa525381c1a6c00c",
+            "name": "20190511132037_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132037_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "172e9e85714188859baa0f59919061fa": {
+            "format": "jpg",
+            "id": "172e9e85714188859baa0f59919061fa",
+            "name": "20190511132038_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132038_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6f707b2a986ac82071de4ed2a5a7351b": {
+            "format": "jpg",
+            "id": "6f707b2a986ac82071de4ed2a5a7351b",
+            "name": "20190511132041_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132041_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5b651a1c4a6fe109bcf44e9424c1eb6": {
+            "format": "jpg",
+            "id": "b5b651a1c4a6fe109bcf44e9424c1eb6",
+            "name": "20190511132048_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132048_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65a664a1a3b9cc95bd7a74cad03d1c11": {
+            "format": "jpg",
+            "id": "65a664a1a3b9cc95bd7a74cad03d1c11",
+            "name": "20190511132049_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132049_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed13e88628fa839fee75d1b14ae64b02": {
+            "format": "jpg",
+            "id": "ed13e88628fa839fee75d1b14ae64b02",
+            "name": "20190511132052_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132052_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ebf09b7463cc5729e75afc8d718e0017": {
+            "format": "jpg",
+            "id": "ebf09b7463cc5729e75afc8d718e0017",
+            "name": "20190511132053_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132053_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83d4ecf68c0c14a997b63a75d5326af1": {
+            "format": "jpg",
+            "id": "83d4ecf68c0c14a997b63a75d5326af1",
+            "name": "20190511132055_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132055_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "57f51c3a8428ee29de595da2a3c7a7f1": {
+            "format": "jpg",
+            "id": "57f51c3a8428ee29de595da2a3c7a7f1",
+            "name": "20190511132056_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132056_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "832809a4275af402d1afe6908d72d378": {
+            "format": "jpg",
+            "id": "832809a4275af402d1afe6908d72d378",
+            "name": "20190511132057_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132057_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9e0f32c4af20154bbad57f321eccaa6": {
+            "format": "jpg",
+            "id": "d9e0f32c4af20154bbad57f321eccaa6",
+            "name": "20190511132100_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132100_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "25514c8b2d2a6f662c83ffe98384f1cc": {
+            "format": "jpg",
+            "id": "25514c8b2d2a6f662c83ffe98384f1cc",
+            "name": "20190511132100_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132100_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d843cec6294bddb6057a981f4d9d863": {
+            "format": "jpg",
+            "id": "1d843cec6294bddb6057a981f4d9d863",
+            "name": "20190511132104_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132104_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20df03021d77a53d2c1e9e8448092b73": {
+            "format": "jpg",
+            "id": "20df03021d77a53d2c1e9e8448092b73",
+            "name": "20190511132108_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132108_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79c4e7df1d62a0018fee24c1bc1ca276": {
+            "format": "jpg",
+            "id": "79c4e7df1d62a0018fee24c1bc1ca276",
+            "name": "20190511132115_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132115_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79aab5c5424b05db9e1314050f3cc91b": {
+            "format": "jpg",
+            "id": "79aab5c5424b05db9e1314050f3cc91b",
+            "name": "20190511132116_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132116_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ff3827ae5da2b4d22417aa0caf68fcf": {
+            "format": "jpg",
+            "id": "5ff3827ae5da2b4d22417aa0caf68fcf",
+            "name": "20190511132119_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132119_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a73b2f58dd7b0d4d694d02905ae5aeb": {
+            "format": "jpg",
+            "id": "3a73b2f58dd7b0d4d694d02905ae5aeb",
+            "name": "20190511132121_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132121_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6167339d9487314817599489da25c114": {
+            "format": "jpg",
+            "id": "6167339d9487314817599489da25c114",
+            "name": "20190511132122_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132122_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b4b0e2a6e69b731d38257797b521939": {
+            "format": "jpg",
+            "id": "8b4b0e2a6e69b731d38257797b521939",
+            "name": "20190511132124_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132124_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61a96023e12b72a82da922fe454a41d7": {
+            "format": "jpg",
+            "id": "61a96023e12b72a82da922fe454a41d7",
+            "name": "20190511132125_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132125_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55b59f991f3ba83f669c50ebe66e25d5": {
+            "format": "jpg",
+            "id": "55b59f991f3ba83f669c50ebe66e25d5",
+            "name": "20190511132126_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132126_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a94a6315611e948461cdc4401bfe52f7": {
+            "format": "jpg",
+            "id": "a94a6315611e948461cdc4401bfe52f7",
+            "name": "20190511132127_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132127_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d0a265a966fcded4377efe71a3595b7": {
+            "format": "jpg",
+            "id": "9d0a265a966fcded4377efe71a3595b7",
+            "name": "20190511132128_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511132128_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4058519171a57d0a14032e395ce599f": {
+            "format": "jpg",
+            "id": "d4058519171a57d0a14032e395ce599f",
+            "name": "20190511133436_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133436_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "155d0266f7f0fe2e0a1bb28c275672fa": {
+            "format": "jpg",
+            "id": "155d0266f7f0fe2e0a1bb28c275672fa",
+            "name": "20190511133437_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133437_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e51de50cf3a1c9106034d111bea23182": {
+            "format": "jpg",
+            "id": "e51de50cf3a1c9106034d111bea23182",
+            "name": "20190511133438_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133438_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c384f7b9045bd5197932833b1df46e44": {
+            "format": "jpg",
+            "id": "c384f7b9045bd5197932833b1df46e44",
+            "name": "20190511133438_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133438_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3da38438cbdb32a26003700e5762135": {
+            "format": "jpg",
+            "id": "f3da38438cbdb32a26003700e5762135",
+            "name": "20190511133440_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133440_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5876b6c8f18142b944be0c91f970e7d0": {
+            "format": "jpg",
+            "id": "5876b6c8f18142b944be0c91f970e7d0",
+            "name": "20190511133441_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133441_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f33145df8133fff6c4f54c9eb096ca71": {
+            "format": "jpg",
+            "id": "f33145df8133fff6c4f54c9eb096ca71",
+            "name": "20190511133441_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133441_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9cc9236edbcc5872cccbd9354064be40": {
+            "format": "jpg",
+            "id": "9cc9236edbcc5872cccbd9354064be40",
+            "name": "20190511133442_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133442_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20d3a8b5b69376296253c5a64fc3deca": {
+            "format": "jpg",
+            "id": "20d3a8b5b69376296253c5a64fc3deca",
+            "name": "20190511133444_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133444_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "523269f02d56cc29ff8169fee2b17107": {
+            "format": "jpg",
+            "id": "523269f02d56cc29ff8169fee2b17107",
+            "name": "20190511133445_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133445_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dacaf7541a857000a4438442e4d407e8": {
+            "format": "jpg",
+            "id": "dacaf7541a857000a4438442e4d407e8",
+            "name": "20190511133445_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133445_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "99a5065d37d57bcce3be66d8723c7475": {
+            "format": "jpg",
+            "id": "99a5065d37d57bcce3be66d8723c7475",
+            "name": "20190511133446_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133446_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb24651f98161e34a713afd17877c530": {
+            "format": "jpg",
+            "id": "eb24651f98161e34a713afd17877c530",
+            "name": "20190511133447_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133447_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11db32b0bfba6795d51f85d32bde52eb": {
+            "format": "jpg",
+            "id": "11db32b0bfba6795d51f85d32bde52eb",
+            "name": "20190511133447_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133447_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b0eb3dee9bca5e0f60c809ebd8c75eb": {
+            "format": "jpg",
+            "id": "9b0eb3dee9bca5e0f60c809ebd8c75eb",
+            "name": "20190511133448_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133448_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a2254684594174af321b64a1eb2bfd5b": {
+            "format": "jpg",
+            "id": "a2254684594174af321b64a1eb2bfd5b",
+            "name": "20190511133449_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133449_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f570d6bd0febf4041bd2718c7afb1ac7": {
+            "format": "jpg",
+            "id": "f570d6bd0febf4041bd2718c7afb1ac7",
+            "name": "20190511133449_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133449_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20bdec61e842382a879793de3e545c4e": {
+            "format": "jpg",
+            "id": "20bdec61e842382a879793de3e545c4e",
+            "name": "20190511133450_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133450_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92df57ec46d595fb984aeea60c93be83": {
+            "format": "jpg",
+            "id": "92df57ec46d595fb984aeea60c93be83",
+            "name": "20190511133450_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133450_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39554f914bb13f358d63e97201714e8b": {
+            "format": "jpg",
+            "id": "39554f914bb13f358d63e97201714e8b",
+            "name": "20190511133451_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133451_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "7869cd23a84b5d3e2ebbf106e04813ab": {
+            "format": "jpg",
+            "id": "7869cd23a84b5d3e2ebbf106e04813ab",
+            "name": "20190511133452_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133452_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "86d5453bea0172fe4347e8fcdb567fed": {
+            "format": "jpg",
+            "id": "86d5453bea0172fe4347e8fcdb567fed",
+            "name": "20190511133453_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133453_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "859ef2e2d78358279dfc8be6038b98bc": {
+            "format": "jpg",
+            "id": "859ef2e2d78358279dfc8be6038b98bc",
+            "name": "20190511133454_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133454_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3daea81cc935b790ed14c3ae019743aa": {
+            "format": "jpg",
+            "id": "3daea81cc935b790ed14c3ae019743aa",
+            "name": "20190511133455_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511133455_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55112df8f830ed52190795f3d822c8fa": {
+            "format": "jpg",
+            "id": "55112df8f830ed52190795f3d822c8fa",
+            "name": "20190511134222_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134222_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3216457d18b16b06d494fafa23f4e793": {
+            "format": "jpg",
+            "id": "3216457d18b16b06d494fafa23f4e793",
+            "name": "20190511134225_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134225_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "664e643d7e0cdc48fa46a6ba8349236f": {
+            "format": "jpg",
+            "id": "664e643d7e0cdc48fa46a6ba8349236f",
+            "name": "20190511134226_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134226_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50049e774b8702fb4dd0a957a62be625": {
+            "format": "jpg",
+            "id": "50049e774b8702fb4dd0a957a62be625",
+            "name": "20190511134227_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134227_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8eb27509f762e55c466acc9e90166bbb": {
+            "format": "jpg",
+            "id": "8eb27509f762e55c466acc9e90166bbb",
+            "name": "20190511134229_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134229_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27920eef6cc0619c506a4105ddb38ead": {
+            "format": "jpg",
+            "id": "27920eef6cc0619c506a4105ddb38ead",
+            "name": "20190511134230_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134230_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "41736b8780c13af6721a7dcbf6d7358d": {
+            "format": "jpg",
+            "id": "41736b8780c13af6721a7dcbf6d7358d",
+            "name": "20190511134230_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134230_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d7e234ef7487713d45867422ca1cebb": {
+            "format": "jpg",
+            "id": "1d7e234ef7487713d45867422ca1cebb",
+            "name": "20190511134232_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134232_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "323932c50b913f0ef98e9335af8e9a78": {
+            "format": "jpg",
+            "id": "323932c50b913f0ef98e9335af8e9a78",
+            "name": "20190511134234_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134234_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9bd700cac69091de558321e5d5ee7c4b": {
+            "format": "jpg",
+            "id": "9bd700cac69091de558321e5d5ee7c4b",
+            "name": "20190511134234_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134234_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "95c0f4b9d5d40a5982761d4597088e06": {
+            "format": "jpg",
+            "id": "95c0f4b9d5d40a5982761d4597088e06",
+            "name": "20190511134235_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134235_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bdebb211e9f3d345fdd7ea597d51b82d": {
+            "format": "jpg",
+            "id": "bdebb211e9f3d345fdd7ea597d51b82d",
+            "name": "20190511134236_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134236_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e1dbd8a2fb27caa3b61e420fd31eb07": {
+            "format": "jpg",
+            "id": "3e1dbd8a2fb27caa3b61e420fd31eb07",
+            "name": "20190511134238_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134238_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27c5ba40b15a468be6ef0526a1fa410c": {
+            "format": "jpg",
+            "id": "27c5ba40b15a468be6ef0526a1fa410c",
+            "name": "20190511134238_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134238_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98ee3e3899ed0de279e6aa81605a3a9c": {
+            "format": "jpg",
+            "id": "98ee3e3899ed0de279e6aa81605a3a9c",
+            "name": "20190511134239_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134239_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad5ba21a01340be2c36812f6c3dada08": {
+            "format": "jpg",
+            "id": "ad5ba21a01340be2c36812f6c3dada08",
+            "name": "20190511134244_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134244_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3fb56c87b974f6135f9d08bad323acaf": {
+            "format": "jpg",
+            "id": "3fb56c87b974f6135f9d08bad323acaf",
+            "name": "20190511134615_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134615_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73c0cbbf4148798534dc3798791dee45": {
+            "format": "jpg",
+            "id": "73c0cbbf4148798534dc3798791dee45",
+            "name": "20190511134617_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134617_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e4f1f7ee65f802f57b3a72fa30f4aa6": {
+            "format": "jpg",
+            "id": "7e4f1f7ee65f802f57b3a72fa30f4aa6",
+            "name": "20190511134617_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134617_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b87201b4cd2c2b50174c9aa5d20bdf88": {
+            "format": "jpg",
+            "id": "b87201b4cd2c2b50174c9aa5d20bdf88",
+            "name": "20190511134618_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134618_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f9a346800a732b5cfc76274d992c719b": {
+            "format": "jpg",
+            "id": "f9a346800a732b5cfc76274d992c719b",
+            "name": "20190511134619_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134619_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfa33d6274ed6b280d85c4842aa596c9": {
+            "format": "jpg",
+            "id": "cfa33d6274ed6b280d85c4842aa596c9",
+            "name": "20190511134622_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134622_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e311f6317addb63a9a4bcd582f54dfd3": {
+            "format": "jpg",
+            "id": "e311f6317addb63a9a4bcd582f54dfd3",
+            "name": "20190511134623_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134623_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c09f0cd799a1b9999f17a13f8dbaf52e": {
+            "format": "jpg",
+            "id": "c09f0cd799a1b9999f17a13f8dbaf52e",
+            "name": "20190511134624_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134624_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c430edd3a983cea2c6a7c8b582b692aa": {
+            "format": "jpg",
+            "id": "c430edd3a983cea2c6a7c8b582b692aa",
+            "name": "20190511134625_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134625_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "809d0fb29590eef2414c57db534609c3": {
+            "format": "jpg",
+            "id": "809d0fb29590eef2414c57db534609c3",
+            "name": "20190511134625_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134625_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96d5d7cf345a83b21da81d3247d2fefd": {
+            "format": "jpg",
+            "id": "96d5d7cf345a83b21da81d3247d2fefd",
+            "name": "20190511134628_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134628_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63b0d402700807271cbe5e7ed848fee0": {
+            "format": "jpg",
+            "id": "63b0d402700807271cbe5e7ed848fee0",
+            "name": "20190511134629_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134629_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f27ae3a0f2644befc034c6a9fce30d08": {
+            "format": "jpg",
+            "id": "f27ae3a0f2644befc034c6a9fce30d08",
+            "name": "20190511134632_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134632_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51f9e37e93843179d024f95374a3ceb4": {
+            "format": "jpg",
+            "id": "51f9e37e93843179d024f95374a3ceb4",
+            "name": "20190511134634_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134634_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7789197375f1436be32c0145613d96e3": {
+            "format": "jpg",
+            "id": "7789197375f1436be32c0145613d96e3",
+            "name": "20190511134636_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134636_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73bd238a7fde0dbbd30dc485a70e7927": {
+            "format": "jpg",
+            "id": "73bd238a7fde0dbbd30dc485a70e7927",
+            "name": "20190511134640_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134640_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34e697ee223dd295e721fb426ab9dac1": {
+            "format": "jpg",
+            "id": "34e697ee223dd295e721fb426ab9dac1",
+            "name": "20190511134643_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134643_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e63ef5ed0c4601b6f89aade6a8dac44a": {
+            "format": "jpg",
+            "id": "e63ef5ed0c4601b6f89aade6a8dac44a",
+            "name": "20190511134649_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134649_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e42c4f119d246147d8b92ab3c0e8687a": {
+            "format": "jpg",
+            "id": "e42c4f119d246147d8b92ab3c0e8687a",
+            "name": "20190511134658_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134658_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04838f19e3b8a0fc00636cb21c264cf0": {
+            "format": "jpg",
+            "id": "04838f19e3b8a0fc00636cb21c264cf0",
+            "name": "20190511134700_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134700_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "313d2b9a88398c411089dacfbf036703": {
+            "format": "jpg",
+            "id": "313d2b9a88398c411089dacfbf036703",
+            "name": "20190511134701_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134701_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ecc01b3d7e02c7ed256598e274b952b": {
+            "format": "jpg",
+            "id": "8ecc01b3d7e02c7ed256598e274b952b",
+            "name": "20190511134705_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134705_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3678887d38f64fffb61740b9426ac5b4": {
+            "format": "jpg",
+            "id": "3678887d38f64fffb61740b9426ac5b4",
+            "name": "20190511134710_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134710_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0aae42a84848484c1b77e551462fb90f": {
+            "format": "jpg",
+            "id": "0aae42a84848484c1b77e551462fb90f",
+            "name": "20190511134714_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134714_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ebfc783724f61c9bd2e092da5a6a0c2": {
+            "format": "jpg",
+            "id": "2ebfc783724f61c9bd2e092da5a6a0c2",
+            "name": "20190511134718_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134718_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd79ac32c9fe2f821f8975b53936cb5f": {
+            "format": "jpg",
+            "id": "fd79ac32c9fe2f821f8975b53936cb5f",
+            "name": "20190511134719_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134719_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e59d8eca2c7133c29ad0c3fb0c21da31": {
+            "format": "jpg",
+            "id": "e59d8eca2c7133c29ad0c3fb0c21da31",
+            "name": "20190511134721_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134721_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22743179859895b574786ee61ba8c043": {
+            "format": "jpg",
+            "id": "22743179859895b574786ee61ba8c043",
+            "name": "20190511134728_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134728_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c6974ca2e1790e2c0f91f77d582128d": {
+            "format": "jpg",
+            "id": "7c6974ca2e1790e2c0f91f77d582128d",
+            "name": "20190511134729_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134729_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01d315d86020541a2c899fadd68f3352": {
+            "format": "jpg",
+            "id": "01d315d86020541a2c899fadd68f3352",
+            "name": "20190511134730_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134730_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e62bb21468dd65b636c3cf8ce8f14aff": {
+            "format": "jpg",
+            "id": "e62bb21468dd65b636c3cf8ce8f14aff",
+            "name": "20190511134731_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134731_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd89ecd9dab116d4597f8e720788573e": {
+            "format": "jpg",
+            "id": "fd89ecd9dab116d4597f8e720788573e",
+            "name": "20190511134733_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134733_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba66245196919bc2e50ae8d4600eb8bf": {
+            "format": "jpg",
+            "id": "ba66245196919bc2e50ae8d4600eb8bf",
+            "name": "20190511134738_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134738_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "585c7b4cd266bb2f8df6f7df5cca1bb4": {
+            "format": "jpg",
+            "id": "585c7b4cd266bb2f8df6f7df5cca1bb4",
+            "name": "20190511134739_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134739_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba42a40eed459797aa47c068385079f6": {
+            "format": "jpg",
+            "id": "ba42a40eed459797aa47c068385079f6",
+            "name": "20190511134740_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134740_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b5c15773f9d386b8d03ae6e70fff623": {
+            "format": "jpg",
+            "id": "9b5c15773f9d386b8d03ae6e70fff623",
+            "name": "20190511134743_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134743_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3b14583cf8829c5fdaa79b6c6aeadf2": {
+            "format": "jpg",
+            "id": "a3b14583cf8829c5fdaa79b6c6aeadf2",
+            "name": "20190511134744_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134744_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78939f75bb35f0613521fcaad8b47f77": {
+            "format": "jpg",
+            "id": "78939f75bb35f0613521fcaad8b47f77",
+            "name": "20190511134745_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134745_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa7bc39405f0153748b6bd964ac1796a": {
+            "format": "jpg",
+            "id": "fa7bc39405f0153748b6bd964ac1796a",
+            "name": "20190511134746_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134746_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73d7ec056ba6558984b6a6fbdb0359da": {
+            "format": "jpg",
+            "id": "73d7ec056ba6558984b6a6fbdb0359da",
+            "name": "20190511134747_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134747_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca1478c68efbfc98c44768901c5a241a": {
+            "format": "jpg",
+            "id": "ca1478c68efbfc98c44768901c5a241a",
+            "name": "20190511134758_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134758_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "263be3e22d83a515ea4b22f39f70edf3": {
+            "format": "jpg",
+            "id": "263be3e22d83a515ea4b22f39f70edf3",
+            "name": "20190511134800_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134800_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f5caf8941421b972a91ebedd2ab0e6d": {
+            "format": "jpg",
+            "id": "8f5caf8941421b972a91ebedd2ab0e6d",
+            "name": "20190511134802_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134802_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a83007b934a77eb188e6891a414da8a": {
+            "format": "jpg",
+            "id": "5a83007b934a77eb188e6891a414da8a",
+            "name": "20190511134808_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134808_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44627b931319d22d289230ff0be74658": {
+            "format": "jpg",
+            "id": "44627b931319d22d289230ff0be74658",
+            "name": "20190511134809_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134809_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bcdd63f01ce9090b40f6f84bb06a5993": {
+            "format": "jpg",
+            "id": "bcdd63f01ce9090b40f6f84bb06a5993",
+            "name": "20190511134811_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134811_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39a6e0f8a87753228f3dff0c1f9b10da": {
+            "format": "jpg",
+            "id": "39a6e0f8a87753228f3dff0c1f9b10da",
+            "name": "20190511134813_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134813_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1d6825906f03961f3d9cb909ea97c78": {
+            "format": "jpg",
+            "id": "c1d6825906f03961f3d9cb909ea97c78",
+            "name": "20190511134814_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134814_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "128e8100c9a0da851e43ba4bb70b5462": {
+            "format": "jpg",
+            "id": "128e8100c9a0da851e43ba4bb70b5462",
+            "name": "20190511134816_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134816_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c1a5ca804bda50a6e15d0901864d7ecb": {
+            "format": "jpg",
+            "id": "c1a5ca804bda50a6e15d0901864d7ecb",
+            "name": "20190511134816_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134816_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5f596d55f7de7b83abd8732fc4811205": {
+            "format": "jpg",
+            "id": "5f596d55f7de7b83abd8732fc4811205",
+            "name": "20190511134825_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134825_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3027a5c85e9a5a3d8357938640ea9c85": {
+            "format": "jpg",
+            "id": "3027a5c85e9a5a3d8357938640ea9c85",
+            "name": "20190511134826_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134826_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61d024858fcc3cb56064ce4e8bb9a52e": {
+            "format": "jpg",
+            "id": "61d024858fcc3cb56064ce4e8bb9a52e",
+            "name": "20190511134829_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134829_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ab2070da1fbc202c0e57c6d06af6bc5": {
+            "format": "jpg",
+            "id": "4ab2070da1fbc202c0e57c6d06af6bc5",
+            "name": "20190511134840_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134840_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29a4628f9db593f9cdde7a76e8cbbb6d": {
+            "format": "jpg",
+            "id": "29a4628f9db593f9cdde7a76e8cbbb6d",
+            "name": "20190511134841_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134841_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3a3ab32082f15a9ee7a28c06abf667d": {
+            "format": "jpg",
+            "id": "b3a3ab32082f15a9ee7a28c06abf667d",
+            "name": "20190511134849_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134849_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "edab32a7f2796c65d48574b0194b824d": {
+            "format": "jpg",
+            "id": "edab32a7f2796c65d48574b0194b824d",
+            "name": "20190511134850_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134850_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "86460dd9a98e1ac17877d2d1c8683398": {
+            "format": "jpg",
+            "id": "86460dd9a98e1ac17877d2d1c8683398",
+            "name": "20190511134854_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134854_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "423a20b437bd07015aca252320208604": {
+            "format": "jpg",
+            "id": "423a20b437bd07015aca252320208604",
+            "name": "20190511134909_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134909_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "718eefea3e4b906562222b53ef784bdd": {
+            "format": "jpg",
+            "id": "718eefea3e4b906562222b53ef784bdd",
+            "name": "20190511134911_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134911_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b931a6ad49a290ffdbe47ae36db8a52a": {
+            "format": "jpg",
+            "id": "b931a6ad49a290ffdbe47ae36db8a52a",
+            "name": "20190511134919_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134919_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "840f0a54b0b4c0bd335ec6fb871bb747": {
+            "format": "jpg",
+            "id": "840f0a54b0b4c0bd335ec6fb871bb747",
+            "name": "20190511134936_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134936_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3aee8d535143ca13d461b56f90003ef5": {
+            "format": "jpg",
+            "id": "3aee8d535143ca13d461b56f90003ef5",
+            "name": "20190511134945_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134945_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37313ba978635fdbe13937d11eb36725": {
+            "format": "jpg",
+            "id": "37313ba978635fdbe13937d11eb36725",
+            "name": "20190511134952_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134952_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfb2930fb6ced035969df8d5bc39e085": {
+            "format": "jpg",
+            "id": "cfb2930fb6ced035969df8d5bc39e085",
+            "name": "20190511134954_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134954_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7579ebc52eef08dfa7b2b0b463b096c": {
+            "format": "jpg",
+            "id": "b7579ebc52eef08dfa7b2b0b463b096c",
+            "name": "20190511134956_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134956_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "97a16600319cc082fc6189492356b9b4": {
+            "format": "jpg",
+            "id": "97a16600319cc082fc6189492356b9b4",
+            "name": "20190511134956_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134956_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e0fd9d7ac4ca2a5cd310315930b5d65": {
+            "format": "jpg",
+            "id": "8e0fd9d7ac4ca2a5cd310315930b5d65",
+            "name": "20190511134958_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134958_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "119a5646e5198ea2c98fecd9b869a875": {
+            "format": "jpg",
+            "id": "119a5646e5198ea2c98fecd9b869a875",
+            "name": "20190511134958_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511134958_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a679500937b912162f7c0045bac03aee": {
+            "format": "jpg",
+            "id": "a679500937b912162f7c0045bac03aee",
+            "name": "20190511184329_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184329_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4437fdac40f6c8f09adb5981f8da8af8": {
+            "format": "jpg",
+            "id": "4437fdac40f6c8f09adb5981f8da8af8",
+            "name": "20190511184330_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184330_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a4ba9f26841881b8de05e8882bc8364b": {
+            "format": "jpg",
+            "id": "a4ba9f26841881b8de05e8882bc8364b",
+            "name": "20190511184330_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184330_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "408359fb1d3daa5151e3367519b6de83": {
+            "format": "jpg",
+            "id": "408359fb1d3daa5151e3367519b6de83",
+            "name": "20190511184332_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184332_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42025e0889ca7fadeff778575b7bb0e8": {
+            "format": "jpg",
+            "id": "42025e0889ca7fadeff778575b7bb0e8",
+            "name": "20190511184333_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184333_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "40689024a5406911769e0f2a938bc9c2": {
+            "format": "jpg",
+            "id": "40689024a5406911769e0f2a938bc9c2",
+            "name": "20190511184340_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184340_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca302f063b9bb011efc4de18e059eca2": {
+            "format": "jpg",
+            "id": "ca302f063b9bb011efc4de18e059eca2",
+            "name": "20190511184350_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184350_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27d9d557de87b5d933bcaf2c072c341f": {
+            "format": "jpg",
+            "id": "27d9d557de87b5d933bcaf2c072c341f",
+            "name": "20190511184358_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184358_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19508cab44d2d0931bf8d7a76466a6d3": {
+            "format": "jpg",
+            "id": "19508cab44d2d0931bf8d7a76466a6d3",
+            "name": "20190511184401_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184401_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "165d5fe43d7612bee33c9317d2650105": {
+            "format": "jpg",
+            "id": "165d5fe43d7612bee33c9317d2650105",
+            "name": "20190511184409_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184409_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "259ee5c81f40f45fb1240c510a9714a6": {
+            "format": "jpg",
+            "id": "259ee5c81f40f45fb1240c510a9714a6",
+            "name": "20190511184411_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184411_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab24947ac9605c0859d6182031891dc0": {
+            "format": "jpg",
+            "id": "ab24947ac9605c0859d6182031891dc0",
+            "name": "20190511184416_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184416_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ffc631222e1332294a0d06003186ec36": {
+            "format": "jpg",
+            "id": "ffc631222e1332294a0d06003186ec36",
+            "name": "20190511184419_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184419_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e617ae566f7fddb93d2af57fd1dcdbfb": {
+            "format": "jpg",
+            "id": "e617ae566f7fddb93d2af57fd1dcdbfb",
+            "name": "20190511184427_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184427_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4874f9bad5ca8a084937f4471d78a3a3": {
+            "format": "jpg",
+            "id": "4874f9bad5ca8a084937f4471d78a3a3",
+            "name": "20190511184430_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184430_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a00210c6a07c75b6eac5ac4b67ea805f": {
+            "format": "jpg",
+            "id": "a00210c6a07c75b6eac5ac4b67ea805f",
+            "name": "20190511184439_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184439_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee34b77227805c918c69ee58ffafa08d": {
+            "format": "jpg",
+            "id": "ee34b77227805c918c69ee58ffafa08d",
+            "name": "20190511184442_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184442_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2da8ac0095bd158ddd72848d5947eb08": {
+            "format": "jpg",
+            "id": "2da8ac0095bd158ddd72848d5947eb08",
+            "name": "20190511184446_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184446_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d9efeefaa7ffa19fdbee0c5f25d2389": {
+            "format": "jpg",
+            "id": "2d9efeefaa7ffa19fdbee0c5f25d2389",
+            "name": "20190511184457_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184457_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79182d5ff6b72a719f9ca0e27d269f43": {
+            "format": "jpg",
+            "id": "79182d5ff6b72a719f9ca0e27d269f43",
+            "name": "20190511184458_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184458_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9766eb13ac7369fdea5e950bb14ea769": {
+            "format": "jpg",
+            "id": "9766eb13ac7369fdea5e950bb14ea769",
+            "name": "20190511184459_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184459_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c44f6a91f540c5829becef9effc6a598": {
+            "format": "jpg",
+            "id": "c44f6a91f540c5829becef9effc6a598",
+            "name": "20190511184512_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184512_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6d4e4b818660635de2502e173e5dae0e": {
+            "format": "jpg",
+            "id": "6d4e4b818660635de2502e173e5dae0e",
+            "name": "20190511184514_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184514_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6071b62397c52ff3c692adf70e0a5b1": {
+            "format": "jpg",
+            "id": "d6071b62397c52ff3c692adf70e0a5b1",
+            "name": "20190511184520_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184520_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42ecc33c6973dbe8e21c99850d812e15": {
+            "format": "jpg",
+            "id": "42ecc33c6973dbe8e21c99850d812e15",
+            "name": "20190511184522_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184522_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e96cf260b8de7fd3405a343836304ac": {
+            "format": "jpg",
+            "id": "1e96cf260b8de7fd3405a343836304ac",
+            "name": "20190511184531_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184531_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8c1c193d7e82ffb7380c69efe1a2f91": {
+            "format": "jpg",
+            "id": "d8c1c193d7e82ffb7380c69efe1a2f91",
+            "name": "20190511184541_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184541_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f54413165b1bc65805e783c8827d584d": {
+            "format": "jpg",
+            "id": "f54413165b1bc65805e783c8827d584d",
+            "name": "20190511184550_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184550_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d7a88614ccb4102696816e8b726c7a6": {
+            "format": "jpg",
+            "id": "5d7a88614ccb4102696816e8b726c7a6",
+            "name": "20190511184551_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184551_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "153543fd9f9a9efbe29a3bb97df2cf29": {
+            "format": "jpg",
+            "id": "153543fd9f9a9efbe29a3bb97df2cf29",
+            "name": "20190511184609_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184609_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "006d495a7e162531ebed6d435d4dd40c": {
+            "format": "jpg",
+            "id": "006d495a7e162531ebed6d435d4dd40c",
+            "name": "20190511184615_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184615_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b27d74ac27150dec529526e2b1f09fe6": {
+            "format": "jpg",
+            "id": "b27d74ac27150dec529526e2b1f09fe6",
+            "name": "20190511184616_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184616_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f2b57edcea8ff49e05ca64299d73191d": {
+            "format": "jpg",
+            "id": "f2b57edcea8ff49e05ca64299d73191d",
+            "name": "20190511184620_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184620_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "490e375a36f7139c18fa302717cc9aad": {
+            "format": "jpg",
+            "id": "490e375a36f7139c18fa302717cc9aad",
+            "name": "20190511184622_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184622_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb3ff541caac7e9d96bec47ec1170c6b": {
+            "format": "jpg",
+            "id": "fb3ff541caac7e9d96bec47ec1170c6b",
+            "name": "20190511184632_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184632_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa6e1369768de942443906e06cf7df4e": {
+            "format": "jpg",
+            "id": "fa6e1369768de942443906e06cf7df4e",
+            "name": "20190511184633_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184633_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "228eee5c06b67c43b76aff170ae7cbee": {
+            "format": "jpg",
+            "id": "228eee5c06b67c43b76aff170ae7cbee",
+            "name": "20190511184638_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184638_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "71d2584bc43c5b6812c77f91859fabf5": {
+            "format": "jpg",
+            "id": "71d2584bc43c5b6812c77f91859fabf5",
+            "name": "20190511184640_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184640_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62052b260debb9d0d6d17897594a545e": {
+            "format": "jpg",
+            "id": "62052b260debb9d0d6d17897594a545e",
+            "name": "20190511184653_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184653_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a15e4eb8f744d8e484240ac6d28e58c3": {
+            "format": "jpg",
+            "id": "a15e4eb8f744d8e484240ac6d28e58c3",
+            "name": "20190511184702_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184702_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a10bd0584abd6c88b7b3b3920e9f20c0": {
+            "format": "jpg",
+            "id": "a10bd0584abd6c88b7b3b3920e9f20c0",
+            "name": "20190511184703_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184703_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d58c0fc4875fbf82f8bc93c54746aa3": {
+            "format": "jpg",
+            "id": "9d58c0fc4875fbf82f8bc93c54746aa3",
+            "name": "20190511184704_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184704_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6b1b49b1ee9f27f881b5ac720d1c3fe": {
+            "format": "jpg",
+            "id": "c6b1b49b1ee9f27f881b5ac720d1c3fe",
+            "name": "20190511184706_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184706_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c9428b2daca99ec1304bbce5c5d9b9e": {
+            "format": "jpg",
+            "id": "8c9428b2daca99ec1304bbce5c5d9b9e",
+            "name": "20190511184720_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184720_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f2765c999d38f3ab63ef8966c13e7333": {
+            "format": "jpg",
+            "id": "f2765c999d38f3ab63ef8966c13e7333",
+            "name": "20190511184722_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184722_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3274c6fe754e951bb4646256758351f4": {
+            "format": "jpg",
+            "id": "3274c6fe754e951bb4646256758351f4",
+            "name": "20190511184722_2.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184722_2.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0ac41bc2813feebb2219631712c2f9e": {
+            "format": "jpg",
+            "id": "d0ac41bc2813feebb2219631712c2f9e",
+            "name": "20190511184728_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184728_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98654e7ff4237dde17f2c4dc8a0dc46a": {
+            "format": "jpg",
+            "id": "98654e7ff4237dde17f2c4dc8a0dc46a",
+            "name": "20190511184729_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184729_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e10dd255087b7d2d613b399f1dc4350f": {
+            "format": "jpg",
+            "id": "e10dd255087b7d2d613b399f1dc4350f",
+            "name": "20190511184730_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184730_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "def5e69cbacf96888315b3cc40b0f622": {
+            "format": "jpg",
+            "id": "def5e69cbacf96888315b3cc40b0f622",
+            "name": "20190511184731_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184731_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a4f3050581493019898ff5d713db0679": {
+            "format": "jpg",
+            "id": "a4f3050581493019898ff5d713db0679",
+            "name": "20190511184733_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184733_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "43b8166fca215a8563d3d1a714ecdfe8": {
+            "format": "jpg",
+            "id": "43b8166fca215a8563d3d1a714ecdfe8",
+            "name": "20190511184738_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184738_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "927a138f8a5127fe5918a65e0563dc72": {
+            "format": "jpg",
+            "id": "927a138f8a5127fe5918a65e0563dc72",
+            "name": "20190511184739_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184739_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e7b38d2d41829bd31614dca680d528f3": {
+            "format": "jpg",
+            "id": "e7b38d2d41829bd31614dca680d528f3",
+            "name": "20190511184747_1.jpg",
+            "path": "file:D:/Users/Tarik-Personal/DeepAimData/MirageCT/20190511184747_1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
